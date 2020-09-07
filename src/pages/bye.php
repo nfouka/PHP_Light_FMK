@@ -26,7 +26,7 @@
     <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
       <header class="masthead mb-auto">
         <div class="inner">
-          <h3 class="masthead-brand">FMK V1.0 </h3>
+        <h3 class="masthead-brand red ">FMK v1.0  <?= isset($_ENV['APP_ENV']) && $_ENV['APP_ENV']== 'dev' ? 'Develop Profile' : ''  ?> </h3>
           <nav class="nav nav-masthead justify-content-center">
             <a class="nav-link active" href="#">Home</a>
             <a class="nav-link" href="/hello">Hello</a>

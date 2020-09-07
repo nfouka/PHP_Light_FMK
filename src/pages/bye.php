@@ -1,0 +1,4 @@
+
+
+<?= print "Good Bye" ; ?>
+

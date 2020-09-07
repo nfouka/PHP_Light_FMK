@@ -26,8 +26,8 @@
           <h3 class="masthead-brand">FMK V1.0 </h3>
           <nav class="nav nav-masthead justify-content-center">
             <a class="nav-link active" href="#">Home</a>
-            <a class="nav-link" href="#">Features</a>
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="/hello">Hello</a>
+            <a class="nav-link" href="/bye">Bye</a>
           </nav>
         </div>
       </header>
@@ -40,6 +40,9 @@
         </p>
       </main>
 
+
+      <p class="test">Lorem ipsum dolor sit amet iquet vestibulum. Maecenas tincidunt metus ut efficitur dignissim. Quisque accumsan in lacus vitae venenatis. Suspendisse potenti. Aenean quis bibendum augue, in gravida augue. Donec facilisis convallis ligula. In in facilisis nisl, eu condimentum dolor. Vestibulum quis risus id sem mattis dictum.</p>
+        <hr/>
       <footer class="mastfoot mt-auto">
         <div class="inner">
           <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>

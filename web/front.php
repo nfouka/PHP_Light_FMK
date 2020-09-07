@@ -11,7 +11,7 @@ $response = new Response();
 $map = [
     '/hello' => __DIR__.'/../src/pages/hello.php',
     '/bye'   => __DIR__.'/../src/pages/bye.php',
-    '/'   => __DIR__.'/../src/pages/index.php',
+    '/'      => __DIR__.'/../src/pages/index.php',
 ];
 
 $path = $request->getPathInfo();

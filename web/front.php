@@ -9,8 +9,8 @@ $request = Request::createFromGlobals();
 $response = new Response();
 
 $map = [
-    '/hello' => 'hello.php',
-    '/bye'   => 'bye.php',
+    '/hello' => 'hello',
+    '/bye'   => 'bye',
     '/'      => 'index',
 ];
 

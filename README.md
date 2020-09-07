@@ -1,4 +1,6 @@
-# PHP_Light_FMK
+# PHP Light FRAMEWORK 
+
+PHP Version > 7.2
 Light Framework based on Symfony 5 component
 
 

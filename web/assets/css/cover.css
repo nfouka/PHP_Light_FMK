@@ -109,7 +109,14 @@ body {
   color: rgba(255, 255, 255, .5);
 }
 
+.red{
+  color:red ; 
+}
 
 .test{
   color:red ; 
+}
+
+.yellow{
+  color:yellow ;
 }

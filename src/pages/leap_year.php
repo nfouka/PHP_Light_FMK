@@ -1,3 +1,5 @@
+
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -33,10 +35,10 @@
       </header>
 
       <main role="main" class="inner cover">
-        <h1 class="cover-heading">Build Your Own Framework</h1>
+        <h1 class="cover-heading">Leap Template Page</h1>
         <p class="lead">FMK is a simple framework for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
         <p class="lead">
-          <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
+          <H2> <?= $request->get('is_year') ?> </H2>
         </p>
       </main>
 

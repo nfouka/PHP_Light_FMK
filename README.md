@@ -38,5 +38,3 @@ URL :  https://127.0.0.1:4322/is_leap_year/2020
 <a href='https://symfony.com/doc/current/create_framework'>  Create framework with symfony component </a>
 
 
-# DEMO 
-<img src='https://raw.githubusercontent.com/nfouka/PHP_Light_FMK/master/wallpaper.png' />

@@ -37,7 +37,7 @@
 
       <main role="main" class="inner cover">
         <h1 class="cover-heading">Hello <?= htmlspecialchars($name, ENT_QUOTES, 'UTF-8') ?> </h1>
-        <p class="lead">Simple template without twig language </p>
+        <p class="lead">FMK is a simple framework for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
         <p class="lead">
           <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
         </p>

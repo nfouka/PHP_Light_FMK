@@ -32,9 +32,9 @@ class Framework {
             $controller = $this->controllerResolver->getController($request); 
             $arguments = $this->argumentResolver->getArguments($request, $controller);  
             $response = call_user_func_array($controller, $arguments);
-        } catch (Routing\Exception\ResourceNotFoundException $exception) {
+        } catch (ResourceNotFoundException $exception) {
             $response = new Response('Not Found', 404);
-        } catch (Exception $exception) {
+        } catch (\Exception $exception) {
             dump($exception) ; 
             $response = new Response('An error occurred', 500);
         }  

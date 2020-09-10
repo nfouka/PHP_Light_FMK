@@ -10,4 +10,4 @@ echo "Unable to find PHP"
 exit 1
 fi
 
-$PHP -S $HOST:$PORT -c $INIFILE -t $DOCROOT
+ $PHP -S $HOST:$PORT -c $INIFILE -t $DOCROOT

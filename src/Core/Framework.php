@@ -5,18 +5,22 @@ namespace Core ;
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
-use Symfony\Component\HttpKernel\Controller\ArgumentResolver;
-use Symfony\Component\HttpKernel\Controller\ControllerResolver;
 use Symfony\Component\Routing\Exception\ResourceNotFoundException;
-use Symfony\Component\Routing\Matcher\UrlMatcher;
+use Symfony\Component\Routing\Matcher\UrlMatcherInterface;
+use Symfony\Component\HttpKernel\Controller\ControllerResolverInterface;
+use Symfony\Component\HttpKernel\Controller\ArgumentResolverInterface;
+use Event\ResponseEvent;
+use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 
 class Framework {
-    protected $matcher;
-    protected $controllerResolver;
-    protected $argumentResolver;
-
-    public function __construct(UrlMatcher $matcher, ControllerResolver $controllerResolver, ArgumentResolver $argumentResolver)
+    private $dispatcher;
+    private $matcher;
+    private $controllerResolver;
+    private $argumentResolver;
+    
+    public function __construct(EventDispatcherInterface $dispatcher, UrlMatcherInterface $matcher, ControllerResolverInterface $controllerResolver, ArgumentResolverInterface $argumentResolver)
     {
+        $this->dispatcher = $dispatcher;
         $this->matcher = $matcher;
         $this->controllerResolver = $controllerResolver;
         $this->argumentResolver = $argumentResolver;
@@ -39,6 +43,7 @@ class Framework {
             $response = new Response('An error occurred', 500);
         }  
 
+        $this->dispatcher->dispatch(new ResponseEvent($response, $request), ResponseEvent::NAME );
         return $response  ; 
     }
     

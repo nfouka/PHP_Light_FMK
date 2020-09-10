@@ -14,6 +14,13 @@ php -S localhost:8000
 or 
 ``
 symfony server:start --port=4321 --passthru=front.php
+``
+
+## disable/enable xdebug 
+
+``
+php -dxdebug.remote_enable=1 -S 127.0.0.1:8888 -t web/ -c /etc/php/7.4/cli/php.ini
+``
 
 
 # Step 1: Authenticate

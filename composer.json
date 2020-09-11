@@ -1,5 +1,5 @@
 {
-    "name": "nfouka/PHP_Light_FMK",
+    "name": "nfouka/lightframework",
     "type": "php framework",
     "description": "A Light Framework Builder",
     "keywords": ["php7", "framework", "symfony"],

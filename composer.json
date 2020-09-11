@@ -1,4 +1,16 @@
 {
+    "name": "nfouka/PHP_Light_FMK",
+    "type": "php framework",
+    "description": "A Light Framework Builder",
+    "keywords": ["php7", "framework", "symfony"],
+    "homepage": "https://github.com/nfouka",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nadir Fouka",
+            "email": "nadir.fouka@gmail.com"
+        }
+    ],
 	"require-dev" : {
 		"phpunit/phpunit" : "^7",
 		"symfony/var-dumper" : "^5.1",

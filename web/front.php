@@ -8,12 +8,7 @@ use Symfony\Component\Dotenv\Dotenv;
 
 $routes = include __DIR__.'/../src/routing.php';
 $sc =     include __DIR__.'/../src/container.php';
+$dotenv = include __DIR__.'/../src/debug.php';
 
-
-$whoops = new \Whoops\Run;
-$whoops->pushHandler(new \Whoops\Handler\PrettyPageHandler);
-$whoops->register();
-$dotenv = new Dotenv();
-$dotenv->load(__DIR__.'/../.env');
 $fmk =$sc->get('framework') ; 
 $fmk->handle(Request::createFromGlobals())->send() ;

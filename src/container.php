@@ -9,7 +9,7 @@ use Symfony\Component\HttpKernel\Controller\ControllerResolver;
 use Symfony\Component\DependencyInjection\Reference;
 use Symfony\Component\EventDispatcher\EventDispatcher;
 use Event\ResponseEvent;
-use Listenner\MyListenner1;
+
 
 
 $containerBuilder = new ContainerBuilder();

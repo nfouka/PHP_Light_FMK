@@ -1,6 +1,6 @@
 {
 	"name" : "nfouka/lightframework",
-    "type": "project",
+        "type": "project",
 	"description" : "A Light Framework Builder",
 	"keywords" : [
 		"php7",

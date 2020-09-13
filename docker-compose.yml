@@ -1,0 +1,10 @@
+version: '2'
+services:
+  website:
+    container_name: php74
+    build:
+      context: ./
+    volumes:
+      - ./src:/app
+    ports:
+      - 8000:80

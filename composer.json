@@ -50,7 +50,7 @@
             "start": "php -r 'echo \"-----------------------------------------\n\";'"
         },
 	"finish": {
-             "server:start": "php cliServer.phar server:start  --addressport=0.0.0.0:8000 --rootdir=web"
+             "server:start": "php cliServer.phar server:start  --addressport=0.0.0.0:8888 --rootdir=web"
         },
         "post-install-cmd": [
             "@prepare",

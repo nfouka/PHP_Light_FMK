@@ -39,11 +39,3 @@ $containerBuilder->register('framework', Framework::class )
 return $containerBuilder  ; 
 
 ?>
-
-/*
-
-$dispatcher = new EventDispatcher();
-$dispatcher->addListener( ResponseEvent::NAME , [new MyListenner1() , 'onResponse'], 1 );
-$dispatcher->addListener( ResponseEvent::NAME , [new MyListenner2() , 'onResponse'] ,0 );
-
-*/

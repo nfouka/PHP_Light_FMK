@@ -1,6 +1,6 @@
 {
 	"name" : "nfouka/lightframework",
-        "type": "project",
+	"type" : "project",
 	"description" : "A Light Framework Builder",
 	"keywords" : [
 		"php7",
@@ -14,16 +14,6 @@
 			"email" : "nadir.fouka@gmail.com"
 		}
 	],
-    "description": "A Light Framework Builder",
-    "keywords": ["php7", "framework", "symfony"],
-    "homepage": "https://github.com/nfouka",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Nadir Fouka",
-            "email": "nadir.fouka@gmail.com"
-        }
-    ],
 	"require-dev" : {
 		"phpunit/phpunit" : "^7",
 		"symfony/var-dumper" : "^5.1",
@@ -42,35 +32,13 @@
 			"" : "src/"
 		}
 	},
-    "scripts": {
-        "auto-scripts": {
-            "server:start": "sh post-install.sh --color=auto"
-        },
-        "prepare": {
-            "start": "php -r 'echo \"-----------------------------------------\n\";'"
-        },
-	"finish": {
-             "server:start": "php cliServer.phar server:start  --addressport=0.0.0.0:8000 --rootdir=web"
-        },
-        "post-install-cmd": [
-            "@prepare",
-            "@auto-scripts",
-	    "@finish"
-        ],
-        "post-update-cmd": [
-            "@prepare",
-            "@auto-scripts",
-	    "@finish"
-        ]
-    },
-    "conflict": {
-        "symfony/symfony": "*"
-    },
-    "extra": {
-        "symfony": {
-            "allow-contrib": true,
-            "require": "5.1.*"
-        }
-    }
+	"conflict" : {
+		"symfony/symfony" : "*"
+	},
+	"extra" : {
+		"symfony" : {
+			"allow-contrib" : true,
+			"require" : "5.1.*"
+		}
+	}
 }
-

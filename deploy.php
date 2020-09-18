@@ -81,7 +81,6 @@ task('deploy', [
     'create:ssh',
     'deploy:info',
     'deploy:prepare',
-    'deploy:lock',
     'create:release',
     'deploy:update_code',
     'deploy:shared',
@@ -89,7 +88,6 @@ task('deploy', [
     'deploy:vendors',
     'deploy:clear_paths',
     'deploy:symlink',
-    'deploy:unlock',
     'cleanup',
     'success'
 ]);

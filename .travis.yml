@@ -6,4 +6,3 @@ script:
    - composer install
    - vendor/bin/phpunit
    - curl -LO https://deployer.org/deployer.phar
-   - php deployer.phar deploy production

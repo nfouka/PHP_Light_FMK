@@ -1,2 +1,2 @@
-#!/usr/bin/env php
+#!/bin/bash
 dep deploy production

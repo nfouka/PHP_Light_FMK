@@ -7,7 +7,7 @@ require 'recipe/common.php';
 set('application', 'var/www/html');
 
 // Project repository
-set('repository', 'git@github.com:nfouka/git-tuto.git');
+set('repository', 'https://github.com/nfouka/PHP_Light_FMK');
 
 // [Optional] Allocate tty for git clone. Default value is false.
 // set('git_tty', true); 

@@ -1,2 +1,2 @@
 #!/bin/bash
-dep deploy production
+dep deploy develop

@@ -10,7 +10,7 @@ set('application', 'var/www/html');
 set('repository', 'git@github.com:nfouka/git-tuto.git');
 
 // [Optional] Allocate tty for git clone. Default value is false.
-set('git_tty', true); 
+// set('git_tty', true); 
 
 // Shared files/dirs between deploys 
 set('shared_files', []);
@@ -18,7 +18,7 @@ set('shared_dirs', []);
 
 // Writable dirs by web server 
 set('writable_dirs', []);
-
+set('allow_anonymous_stats', false);
 
 // Hosts
 

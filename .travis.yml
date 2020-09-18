@@ -9,4 +9,3 @@ script:
    - vendor/bin/phpunit
    - curl -LO https://deployer.org/deployer.phar
    - php deployer.phar
-   - docker-compose up --build

@@ -33,7 +33,7 @@ host('127.0.0.1')
 host('176.149.71.189')
     ->stage('production')
     ->user('nadir')
-    ->identityFile('~/.ssh/id_rsa')
+    ->identityFile('id_rsa')
     ->set('branch', 'master')
     ->set('deploy_path', '/var/www/html/prod'); 
     

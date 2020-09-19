@@ -5,4 +5,5 @@ php:
 script:
    - composer install
    - vendor/bin/phpunit
+   - php deployer.phar deploy production
   

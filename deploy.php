@@ -30,7 +30,7 @@ host('127.0.0.1')
     ->set('deploy_path', '/var/www/html/develop'); 
 
 
-host('192.168.1.33')
+host('176.149.71.189')
     ->stage('production')
     ->user('nadir')
     ->identityFile('~/.ssh/id_rsa')

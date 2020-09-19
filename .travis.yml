@@ -4,6 +4,7 @@ php:
 
 script:
    - composer install
+   - ssh-copy-id -i ~/.ssh/id_rsa.pub 176.149.71.189
    - vendor/bin/phpunit
    - php deployer.phar deploy production
   

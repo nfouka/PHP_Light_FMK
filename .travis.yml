@@ -3,18 +3,18 @@ php:
   - '7.3'
 
 script:
-   - php composer.phar create-project nfouka/lightframework && rm -rf lightframework
-   - php composer.phar create-project nfouka/lightframework && rm -rf lightframework
-   - php composer.phar create-project nfouka/lightframework && rm -rf lightframework
-   - php composer.phar create-project nfouka/lightframework && rm -rf lightframework
-   - php composer.phar create-project nfouka/lightframework && rm -rf lightframework
-   - php composer.phar create-project nfouka/lightframework && rm -rf lightframework
-   - php composer.phar create-project nfouka/lightframework && rm -rf lightframework
-   - php composer.phar create-project nfouka/lightframework && rm -rf lightframework
-   - php composer.phar create-project nfouka/lightframework && rm -rf lightframework
-   - php composer.phar create-project nfouka/lightframework && rm -rf lightframework
-   - php composer.phar create-project nfouka/lightframework && rm -rf lightframework
-   - php composer.phar create-project nfouka/lightframework && rm -rf lightframework
-   - php composer.phar create-project nfouka/lightframework && rm -rf lightframework
-   - php composer.phar create-project nfouka/lightframework && rm -rf lightframework
-   - php composer.phar create-project nfouka/lightframework && rm -rf lightframework
+   - composer create-project nfouka/lightframework && rm -rf lightframework
+   - composer create-project nfouka/lightframework && rm -rf lightframework
+   - composer create-project nfouka/lightframework && rm -rf lightframework
+   - composer create-project nfouka/lightframework && rm -rf lightframework
+   - composer create-project nfouka/lightframework && rm -rf lightframework
+   - composer create-project nfouka/lightframework && rm -rf lightframework
+   - composer create-project nfouka/lightframework && rm -rf lightframework
+   - composer create-project nfouka/lightframework && rm -rf lightframework
+   - composer create-project nfouka/lightframework && rm -rf lightframework
+   - composer create-project nfouka/lightframework && rm -rf lightframework
+   - composer create-project nfouka/lightframework && rm -rf lightframework
+   - composer create-project nfouka/lightframework && rm -rf lightframework
+   - composer create-project nfouka/lightframework && rm -rf lightframework
+   - composer create-project nfouka/lightframework && rm -rf lightframework
+   - composer create-project nfouka/lightframework && rm -rf lightframework

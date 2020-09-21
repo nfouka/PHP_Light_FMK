@@ -14,7 +14,3 @@ script:
    - composer create-project nfouka/lightframework && rm -rf lightframework
    - composer create-project nfouka/lightframework && rm -rf lightframework
    - composer create-project nfouka/lightframework && rm -rf lightframework
-   - composer create-project nfouka/lightframework && rm -rf lightframework
-   - composer create-project nfouka/lightframework && rm -rf lightframework
-   - composer create-project nfouka/lightframework && rm -rf lightframework
-   - composer create-project nfouka/lightframework && rm -rf lightframework

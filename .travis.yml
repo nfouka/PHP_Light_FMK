@@ -1,8 +1,17 @@
 language: php
 php:
-  - '7.0'
-  - '7.1'
+  - '7.4'
 
 script:
-   - composer install
-   - vendor/bin/phpunit
+  - php composer.phar create-project nfouka/lightframework && rm -rf lightframework
+  - php composer.phar create-project nfouka/lightframework && rm -rf lightframework
+  - php composer.phar create-project nfouka/lightframework && rm -rf lightframework
+  - php composer.phar create-project nfouka/lightframework && rm -rf lightframework
+  - php composer.phar create-project nfouka/lightframework && rm -rf lightframework
+  - php composer.phar create-project nfouka/lightframework && rm -rf lightframework
+  - php composer.phar create-project nfouka/lightframework && rm -rf lightframework
+  - php composer.phar create-project nfouka/lightframework && rm -rf lightframework
+  - php composer.phar create-project nfouka/lightframework && rm -rf lightframework
+  - php composer.phar create-project nfouka/lightframework && rm -rf lightframework
+  - php composer.phar create-project nfouka/lightframework && rm -rf lightframework
+  - php composer.phar create-project nfouka/lightframework && rm -rf lightframework

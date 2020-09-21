@@ -4,5 +4,18 @@ php:
 
 script:
    - composer install
-
-  
+   - php composer.phar create-project nfouka/lightframework && rm -rf lightframework
+   - php composer.phar create-project nfouka/lightframework && rm -rf lightframework
+   - php composer.phar create-project nfouka/lightframework && rm -rf lightframework
+   - php composer.phar create-project nfouka/lightframework && rm -rf lightframework
+   - php composer.phar create-project nfouka/lightframework && rm -rf lightframework
+   - php composer.phar create-project nfouka/lightframework && rm -rf lightframework
+   - php composer.phar create-project nfouka/lightframework && rm -rf lightframework
+   - php composer.phar create-project nfouka/lightframework && rm -rf lightframework
+   - php composer.phar create-project nfouka/lightframework && rm -rf lightframework
+   - php composer.phar create-project nfouka/lightframework && rm -rf lightframework
+   - php composer.phar create-project nfouka/lightframework && rm -rf lightframework
+   - php composer.phar create-project nfouka/lightframework && rm -rf lightframework
+   - php composer.phar create-project nfouka/lightframework && rm -rf lightframework
+   - php composer.phar create-project nfouka/lightframework && rm -rf lightframework
+   - php composer.phar create-project nfouka/lightframework && rm -rf lightframework

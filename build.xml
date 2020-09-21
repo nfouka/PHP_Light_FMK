@@ -6,7 +6,5 @@
                 <arg value="deploy" />
                 <arg value="production" />
             </exec>
-
     </target>
-
 </project>

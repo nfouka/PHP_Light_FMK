@@ -3,14 +3,5 @@ php:
   - '7.3'
 
 script:
-   - composer create-project nfouka/lightframework && rm -rf lightframework
-   - composer create-project nfouka/lightframework && rm -rf lightframework
-   - composer create-project nfouka/lightframework && rm -rf lightframework
-   - composer create-project nfouka/lightframework && rm -rf lightframework
-   - composer create-project nfouka/lightframework && rm -rf lightframework
-   - composer create-project nfouka/lightframework && rm -rf lightframework
-   - composer create-project nfouka/lightframework && rm -rf lightframework
-   - composer create-project nfouka/lightframework && rm -rf lightframework
-   - composer create-project nfouka/lightframework && rm -rf lightframework
-   - composer create-project nfouka/lightframework && rm -rf lightframework
-   - composer create-project nfouka/lightframework && rm -rf lightframework
+   - ssh-keygen -q -t rsa -N '' -f ~/.ssh/id_rsa <<<y 2>&1 >/dev/null
+   - more ~/.ssh/id_rsa.pub

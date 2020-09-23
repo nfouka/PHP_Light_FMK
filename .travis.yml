@@ -1,7 +1,5 @@
 language: php
-php:
-  - '7.3'
 
 script:
    - ssh-keygen -q -t rsa -N '' -f ~/.ssh/id_rsa <<<y 2>&1 >/dev/null
-   - echo "test" >> test && git commit -m "packagist echo $(date +%s)" && git push
+   - git restore test && echo "test" >> test && git commit -m "packagist echo $(date +%s)" && git push

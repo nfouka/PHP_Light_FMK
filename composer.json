@@ -29,7 +29,8 @@
 		"nfouka/cliserver" :"1.0",
 		"uga/twig2pdf-bundle": "^1.3",
 		"uga/php4mailer-bundle": "^1.0",
-		"uga/php4logger-bundle": "^1.0"
+		"uga/php4logger-bundle": "^1.0",
+		"drupal8/bmi": "@dev"
 	},
 	"autoload" : {
 		"psr-4" : {

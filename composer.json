@@ -1,4 +1,19 @@
 {
+    "name" : "nfouka/lightframework",
+	"type" : "project",
+	"description" : "A Light Framework Builder",
+	"keywords" : [
+		"php7",
+		"framework",
+		"symfony"
+	],
+	"homepage" : "https://github.com/nfouka",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Nadir Fouka",
+			"email" : "nadir.fouka@gmail.com"
+		}
+	],
     "require": {
         "symfony/http-foundation": "^5.4",
         "symfony/var-dumper": "^5.4",

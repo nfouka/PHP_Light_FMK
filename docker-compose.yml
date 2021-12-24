@@ -1,10 +1,22 @@
-version: '2'
+version: '3.6'
+
 services:
-  website:
-    container_name: php74
-    build:
-      context: ./
-    volumes:
-      - ./framework:/app
-    ports:
-      - 80:80
+   
+
+    php:
+      container_name: php
+      hostname: php
+      build:
+       context: ./
+       dockerfile: Dockerfile
+      ports:
+        - 80:80
+      networks:
+        - php_redis
+      volumes:
+        - ./:/var/www/html
+
+
+networks:
+  php_redis:
+    driver: bridge

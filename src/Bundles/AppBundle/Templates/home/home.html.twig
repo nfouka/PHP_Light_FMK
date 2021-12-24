@@ -1,0 +1,30 @@
+
+
+{% extends "/base/base.html.twig" %}
+
+{% block title %}Application With Twig Extention 2 {% endblock %}
+{% block head %}
+    {{ parent() }}
+    <link href="/public/css/style.cs" rel="stylesheet">
+{% endblock %}
+{% block content %}
+
+    {% for student in all %}
+        <div class="post-preview">
+            <a href="post.html">
+                <h2 class="post-title">{{     student.name    }}</h2>
+                <h3 class="post-subtitle">{{  student.text }}</h3>
+            </a>
+            <p class="post-meta">
+                Posted by
+                <a href="#!" class="nadir">{{  student.name }} </a>
+                on {{     student.date    }}
+            </p>
+        </div>
+    {% else %}
+        <tr>
+            <td colspan="3">You don't have this!</td>
+        </tr>
+    {% endfor %}
+
+{% endblock %}
